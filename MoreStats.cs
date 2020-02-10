@@ -17,14 +17,14 @@ namespace MusicBeePlugin
             mbApiInterface = new MusicBeeApiInterface();
             mbApiInterface.Initialise(apiInterfacePtr);
             about.PluginInfoVersion = PluginInfoVersion;
-            about.Name = "Hello, Musicbee!";
-            about.Description = "My first Musicbee plugin";
+            about.Name = "More Stats";
+            about.Description = "Statistics plugin for Musicbee";
             about.Author = "Archada";
             about.TargetApplication = "";   //  the name of a Plugin Storage device or panel header for a dockable panel
             about.Type = PluginType.General;
-            about.VersionMajor = 1;  // your plugin version
-            about.VersionMinor = 0;
-            about.Revision = 1;
+            about.VersionMajor = 0;  // your plugin version
+            about.VersionMinor = 1;
+            about.Revision = 0;
             about.MinInterfaceVersion = 30;
             about.MinApiRevision = 40;
             about.ReceiveNotifications = (ReceiveNotificationFlags.PlayerEvents | ReceiveNotificationFlags.TagEvents);
