@@ -1,0 +1,9 @@
+G:\Musicbee Testing\C# Source3.1\obj\Debug\Obsessions.csprojAssemblyReference.cache
+G:\Musicbee Testing\C# Source3.1\obj\Debug\mb_TestCSharpDll.dll
+G:\Musicbee Testing\C# Source3.1\obj\Debug\mb_TestCSharpDll.pdb
+G:\Musicbee Testing\C# Source3.1\bin\Debug\Obsessed.cs
+G:\Musicbee Testing\C# Source3.1\bin\Debug\mb_TestCSharpDll.dll.config
+G:\Musicbee Testing\C# Source3.1\bin\Debug\mb_TestCSharpDll.dll
+G:\Musicbee Testing\C# Source3.1\bin\Debug\mb_TestCSharpDll.pdb
+G:\Musicbee Testing\C# Source3.1\obj\Debug\MusicBeePlugin.ObsessedForm.resources
+G:\Musicbee Testing\C# Source3.1\obj\Debug\Obsessions.csproj.GenerateResource.cache

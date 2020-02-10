@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreStats", "MoreStats.csproj", "{F5D46BA1-6F21-40EF-9695-46105CCACD08}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "MusicBee", "..\MusicBee\MusicBee.exe", "{D7A8C204-71B2-4CC7-8ACC-0A32651AA7CF}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = G:\Musicbee Testing\MusicBee\MusicBee.exe
+		RemoteMachine = ORION
+		StartingDirectory = G:\Musicbee Testing\MusicBee
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Debug|x86.ActiveCfg = Debug|x86
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Debug|x86.Build.0 = Debug|x86
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Release|x86.ActiveCfg = Release|x86
+		{F5D46BA1-6F21-40EF-9695-46105CCACD08}.Release|x86.Build.0 = Release|x86
+		{D7A8C204-71B2-4CC7-8ACC-0A32651AA7CF}.Debug|Any CPU.ActiveCfg = Release|x86
+		{D7A8C204-71B2-4CC7-8ACC-0A32651AA7CF}.Debug|x86.ActiveCfg = Release|x86
+		{D7A8C204-71B2-4CC7-8ACC-0A32651AA7CF}.Release|Any CPU.ActiveCfg = Release|x86
+		{D7A8C204-71B2-4CC7-8ACC-0A32651AA7CF}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {707F2DD5-41C4-47CA-B330-09CC09E60D35}
+	EndGlobalSection
+EndGlobal
