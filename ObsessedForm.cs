@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Configuration;
+using System.Collections.Specialized;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,6 +8,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Lastfm.Services;
+using Lastfm.Scrobbling;
+using Lastfm;
 
 namespace MusicBeePlugin
 {
@@ -15,6 +20,13 @@ namespace MusicBeePlugin
         {
             // C:\MusicBee\AppData\LastFmScrobbles.log | Scrobble log location
             InitializeComponent();
+
+            // --------Initializing lastfm api--------
+            string apikey = ConfigurationManager.AppSettings.Get("API_KEY");
+            string secretkey = ConfigurationManager.AppSettings.Get("SECRET_KEY");
+            Session session = new Session(apikey, secretkey);
+            string usr = pApi.Setting_GetLastFmUserId();
+            // ---------------------------------------
 
             // Use QueryFilesEx to get the fileURLs
             pApi.Library_QueryFilesEx("domain=SelectedFiles", out String[] files); // files contains the fileURL for a selected track(s)
@@ -38,7 +50,7 @@ namespace MusicBeePlugin
             }
             else
             {
-                label1.Text = obsession(history, added, title, artist, plays);
+                label1.Text = usr+" "+obsession(history, added, title, artist, plays);
             }
         }
 
@@ -127,6 +139,11 @@ namespace MusicBeePlugin
             }
 
             return $"{string.Join(", ", components.Select(tupleFormatter))}{extra}";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

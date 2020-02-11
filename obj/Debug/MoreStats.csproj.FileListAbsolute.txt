@@ -7,3 +7,14 @@ G:\Musicbee Testing\C# Source3.1\obj\Debug\MusicBeePlugin.ObsessedForm.resources
 G:\Musicbee Testing\C# Source3.1\obj\Debug\MoreStats.csproj.GenerateResource.cache
 G:\Musicbee Testing\C# Source3.1\obj\Debug\mb_TestCSharpDll.dll
 G:\Musicbee Testing\C# Source3.1\obj\Debug\mb_TestCSharpDll.pdb
+G:\Musicbee Testing\mb-more-stats\bin\Debug\MoreStats.cs
+G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.dll.config
+G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.dll
+G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.pdb
+G:\Musicbee Testing\mb-more-stats\obj\Debug\MoreStats.csprojAssemblyReference.cache
+G:\Musicbee Testing\mb-more-stats\obj\Debug\MusicBeePlugin.ObsessedForm.resources
+G:\Musicbee Testing\mb-more-stats\obj\Debug\MoreStats.csproj.GenerateResource.cache
+G:\Musicbee Testing\mb-more-stats\obj\Debug\mb_MoreStats.dll
+G:\Musicbee Testing\mb-more-stats\obj\Debug\mb_MoreStats.pdb
+G:\Musicbee Testing\mb-more-stats\bin\Debug\lastfm-sharp.dll
+G:\Musicbee Testing\mb-more-stats\obj\Debug\MoreStats.csproj.CopyComplete

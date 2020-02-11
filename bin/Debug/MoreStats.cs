@@ -1,8 +1,13 @@
 ﻿using System;
+using System.Configuration;
+using System.Collections.Specialized;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Collections.Generic;
+using Lastfm.Services;
+using Lastfm.Scrobbling;
+using Lastfm;
 
 namespace MusicBeePlugin
 {
