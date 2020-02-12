@@ -1,5 +1,6 @@
 .git/
 .vs/
+bin/Debug
 config.ini
-*.config
-*.settings
+app.config
+app.settings
