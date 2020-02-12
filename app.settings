@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MusicBeePlugin" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="API_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">7046152bf48437ba5c4f01239f15b293</Value>
+    </Setting>
+    <Setting Name="SECRET_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">438915e7b3f7e75e6272fa36e6d35f73</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

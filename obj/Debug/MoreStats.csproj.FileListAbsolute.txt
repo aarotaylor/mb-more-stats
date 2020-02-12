@@ -8,7 +8,6 @@ G:\Musicbee Testing\C# Source3.1\obj\Debug\MoreStats.csproj.GenerateResource.cac
 G:\Musicbee Testing\C# Source3.1\obj\Debug\mb_TestCSharpDll.dll
 G:\Musicbee Testing\C# Source3.1\obj\Debug\mb_TestCSharpDll.pdb
 G:\Musicbee Testing\mb-more-stats\bin\Debug\MoreStats.cs
-G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.dll.config
 G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.dll
 G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.pdb
 G:\Musicbee Testing\mb-more-stats\obj\Debug\MoreStats.csprojAssemblyReference.cache
@@ -18,3 +17,4 @@ G:\Musicbee Testing\mb-more-stats\obj\Debug\mb_MoreStats.dll
 G:\Musicbee Testing\mb-more-stats\obj\Debug\mb_MoreStats.pdb
 G:\Musicbee Testing\mb-more-stats\bin\Debug\lastfm-sharp.dll
 G:\Musicbee Testing\mb-more-stats\obj\Debug\MoreStats.csproj.CopyComplete
+G:\Musicbee Testing\mb-more-stats\bin\Debug\mb_MoreStats.dll.config

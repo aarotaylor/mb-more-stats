@@ -2,3 +2,4 @@
 .vs/
 config.ini
 *.config
+*.settings

@@ -7,10 +7,13 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Net;
+using System.Net.Http;
 using System.Windows.Forms;
 using Lastfm.Services;
 using Lastfm.Scrobbling;
 using Lastfm;
+using System.IO;
 
 namespace MusicBeePlugin
 {
@@ -22,11 +25,34 @@ namespace MusicBeePlugin
             InitializeComponent();
 
             // --------Initializing lastfm api--------
-            string apikey = ConfigurationManager.AppSettings.Get("API_KEY");
-            string secretkey = ConfigurationManager.AppSettings.Get("SECRET_KEY");
+            string apikey = app.Default.API_KEY;//ConfigurationManager.AppSettings["API_KEY"];
+            string secretkey = app.Default.SECRET_KEY;//ConfigurationManager.AppSettings["SECRET_KEY"];
             Session session = new Session(apikey, secretkey);
             string usr = pApi.Setting_GetLastFmUserId();
+
+            // -------- URL Construction --------
+            string root = "http://ws.audioscrobbler.com/2.0/?";
+            
+            string m_topTracks = "method=user.gettoptracks&user=" + usr;
+            string m_topAlbums = "method=user.gettopalbums&user=" + usr;
+
+            // returns date data in addition to scrobble info. in the @attr header there is a totalPages attribute. 
+            // Use this to loop through all pages to collect all data.
+            string m_recentTracks = "method=user.getrecenttracks&user=" + usr;
+            string limit = "&limit=200";
+            string pages = "&page=";
+            int pageNum = 1;
+            string tail = "&api_key=" + apikey + "&format=json";
             // ---------------------------------------
+
+            string url = root+m_recentTracks+limit+pages+pageNum+tail;
+
+            var request = (HttpWebRequest)WebRequest.Create(url);
+
+            var response = (HttpWebResponse)request.GetResponse();
+
+            var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+            
 
             // Use QueryFilesEx to get the fileURLs
             pApi.Library_QueryFilesEx("domain=SelectedFiles", out String[] files); // files contains the fileURL for a selected track(s)
@@ -50,7 +76,7 @@ namespace MusicBeePlugin
             }
             else
             {
-                label1.Text = usr+" "+obsession(history, added, title, artist, plays);
+                label1.Text = responseString+"";// +" | "+obsession(history, added, title, artist, plays);
             }
         }
 
